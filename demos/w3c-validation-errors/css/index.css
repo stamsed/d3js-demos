@@ -1,0 +1,38 @@
+text {
+  font: 10px sans-serif;
+}
+
+rect.value {
+  fill: #aaa;
+}
+
+rect.value:hover {
+  fill: steelblue;
+}
+
+text.name {
+  fill: black;
+  text-shadow: 0 1px 1px #fff;
+  pointer-events: none;
+}
+
+.axis {
+  shape-rendering: crispEdges;
+}
+
+.axis path {
+  fill: none;
+}
+
+.x.axis path {
+  display: none;
+}
+
+.x.axis line {
+  stroke: #fff;
+  stroke-opacity: .8;
+}
+
+.y.axis line {
+  stroke: black;
+}
